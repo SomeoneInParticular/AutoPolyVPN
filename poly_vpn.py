@@ -16,7 +16,7 @@ POLYQUARTZ_URL = "https://ssl.vpn.polymtl.ca/+CSCOE+/logon.html?reason=12&gmsg=4
 def login_with_credentials(driver):
     """
     Use Selenium to acquire a valid VPN cookie and return it to the user
-    :param driver: The web driver to use for "spoofing" a log-in toGive  the
+    :param driver: The web driver to use for "spoofing" a log-in
     :return: The VPN cookie obtained through the spoof
     """
     # Connect to the PolyQuartz URL directly
