@@ -6,6 +6,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.expected_conditions import element_to_be_clickable
 from selenium.webdriver.support.wait import WebDriverWait
 
 
@@ -16,7 +17,7 @@ def login_with_credentials(driver):
     """
     Use Selenium to acquire a valid VPN cookie and return it to the user
     :param driver: The web driver to use for "spoofing" a log-in toGive  the
-    :return:
+    :return: The VPN cookie obtained through the spoof
     """
     # Connect to the PolyQuartz URL directly
     driver.get(POLYQUARTZ_URL)
