@@ -8,8 +8,8 @@ from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 
-POLYQUARTZ_URL = "https://ssl.vpn.polymtl.ca/+CSCOE+/logon.html?reason=12&gmsg=4646594365627376797244686E65676D#form_title_text"
 
+POLYQUARTZ_URL = "https://ssl.vpn.polymtl.ca/+CSCOE+/logon.html?reason=12&gmsg=4646594365627376797244686E65676D#form_title_text"
 
 
 def login_with_credentials(driver):
