@@ -50,7 +50,6 @@ def login_with_credentials(driver):
         EC.element_to_be_clickable((By.NAME, 'credentials.passcode'))
     )
 
-    # TODO: Re-prompt the user every time the password fails
     # TODO: Allow the user to 'back out' and enter a different username
 
     # Request the user submit their password, and submit it to the webpage
